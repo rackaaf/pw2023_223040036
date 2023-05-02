@@ -1,0 +1,133 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: roboto;
+	box-sizing: border-box;
+}
+
+.hero {
+	background-image: url(../img/hero.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	color: white;
+}
+
+.posisi {
+	padding: 15%;
+}
+
+.btnone {
+	margin: 0px 10px;
+	border: 2px solid #fabd02;
+	padding: 13px 35px;
+	letter-spacing: 3px;
+	color: #0d0d0d;
+	background-color: #fabd02 !important;
+}
+.btntwo {
+	margin: 0px 10px;
+	border: 2px solid #fabd02;
+	padding: 13px 35px;
+	letter-spacing: 3px;
+	color: #0d0d0d;
+	background-color: #fabd02 !important;
+}
+
+.about img {
+	height: auto;
+	width: 400px;
+}
+
+.about-text {
+	width: 500px;
+}
+
+.main {
+	width: 100%;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about-text h2 {
+	color: #0d0d0d;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.about-text h5 {
+	color: #0d0d0d;
+	letter-spacing: 2px;
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+
+.about-text p {
+	color: #0d0d0d;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.swiper {
+	width: 80%;
+	height: 100%;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 250px;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.layer {
+	width: 100%;
+	height: 0;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), #60ef60);
+	position: absolute;
+	border-radius: 5px;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0 40px;
+	transition: 0.5s;
+}
+
+.swiper-slide:hover .layer {
+	height: 100%;
+}
+
+.posisidua {
+	padding-top: 150px !important;
+}
+
+.posisitiga {
+	margin-top: 100px !important;
+}
+
+.dekorasi a {
+	text-decoration: none !important;
+}
