@@ -5,13 +5,13 @@
 }
 
 body {
-	background-color: #303030e5;
+	background-image: url(../img/hero.jpeg);
 }
 
 .container {
 	width: 330px;
 	padding: 2rem 1rem;
-	margin: 50px auto;
+	margin: 100px auto;
 	background-color: white;
 	border-radius: 8px;
 	text-align: center;

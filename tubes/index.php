@@ -44,7 +44,7 @@
                 <h4 class="pb-3 display-6">Lorem ipsum dolor sit.</h4>
                 <div class="active">
                     <a class="btn rounded-pill btnone" href="./register.php" role="button">Sign Up</a>
-                    <a class="btn rounded-pill btntwo" href="./login.php" role="button">Login</a>
+                    <a class="btn rounded-pill btnone btntwo" href="./login.php" role="button">Login</a>
                 </div>
             </div>
         </div>
@@ -53,31 +53,30 @@
         <div class="container-fluid service pt-5 pb-5">
             <div class="container text-center">
                 <h2 class="display-3 pb-5">About</h2>
-                <div class="main row pb-5">
-                    <div class="row pt-4">
-                        <div class="col-md-3 col-sm-6 pb-4">
-                            <i class="fa-sharp fa-solid fa-mountain-sun fa-3x"></i>
-                            <h3 class="pt-3">Mountain</h3>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="col-md-3 col-sm-6 pb-4">
-                            <i class="fa-solid fa-umbrella-beach fa-3x"></i>
-                            <h3 class="pt-3">Beach</h3>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="col-md-3 col-sm-6 pb-4">
-                            <i class="fa-solid fa-building-columns fa-3x"></i>
-                            <h3 class="pt-3">Museum</h3>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="col-md-3 col-sm-6 pb-4">
-                            <i class="fa-solid fa-tent fa-3x"></i>
-                            <h3 class="pt-3">Camping</h3>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
+                <div class="row pt-4">
+                    <div class="col-md-3 col-sm-6 pb-4">
+                        <i class="fa-sharp fa-solid fa-mountain-sun fa-3x"></i>
+                        <h3 class="pt-3">Mountain</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 pb-4">
+                        <i class="fa-solid fa-umbrella-beach fa-3x"></i>
+                        <h3 class="pt-3">Beach</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 pb-4">
+                        <i class="fa-solid fa-building-columns fa-3x"></i>
+                        <h3 class="pt-3">Museum</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 pb-4">
+                        <i class="fa-solid fa-tent fa-3x"></i>
+                        <h3 class="pt-3">Camping</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <section>
         <h1>Destination</h1>
@@ -85,52 +84,52 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="img/Destination/Germany.jpg" />
+                    <img src="img/Destination/Indonesia/Indonesia.jpg" />
                     <div class="layer">
-                        <h5 class="card-title posisidua">Card title</h5>
-                        <a href="#" class="btn btn-primary posisitiga">View More</a>
+                        <h5 class="card-title posisidua">Indonesia</h5>
+                        <a href="./indonesia.php" class="btn btn-primary posisitiga">View More</a>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/Destination/Indonesia.jpg" />
+                    <img src="img/Destination/Belanda/Netherlands.jpg" />
                     <div class="layer">
-                        <h5 class="card-title posisidua">Card title</h5>
-                        <a href="#" class="btn btn-primary posisitiga">View More</a>
+                        <h5 class="card-title posisidua">Netherlands</h5>
+                        <a href="./netherlands.php" class="btn btn-primary posisitiga">View More</a>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/Destination/japan.jpg" />
+                    <img src="img/Destination/France/france.jpg" />
                     <div class="layer">
-                        <h5 class="card-title posisidua">Card title</h5>
-                        <a href="#" class="btn btn-primary posisitiga">View More</a>
+                        <h5 class="card-title posisidua">France</h5>
+                        <a href="./france.php" class="btn btn-primary posisitiga">View More</a>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/Destination/Netherlands.jpg" />
+                    <img src="img/Destination/Italia/italy.jpg" />
                     <div class="layer">
-                        <h5 class="card-title posisidua">Card title</h5>
-                        <a href="#" class="btn btn-primary posisitiga">View More</a>
+                        <h5 class="card-title posisidua">Italy</h5>
+                        <a href="./italy.php" class="btn btn-primary posisitiga">View More</a>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/Destination/thailand.jpg" />
+                    <img src="img/Destination/Jepang/japan.jpg" />
                     <div class="layer">
-                        <h5 class="card-title posisidua">Card title</h5>
-                        <a href="#" class="btn btn-primary posisitiga">View More</a>
+                        <h5 class="card-title posisidua">Japan</h5>
+                        <a href="./japan.php" class="btn btn-primary posisitiga">View More</a>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/Destination/thailand.jpg" />
+                    <img src="img/Destination/Kanada/canada.jpg" />
                     <div class="layer">
-                        <h5 class="card-title posisidua">Card title</h5>
-                        <a href="#" class="btn btn-primary posisitiga">View More</a>
+                        <h5 class="card-title posisidua">Canada</h5>
+                        <a href="./canada.php" class="btn btn-primary posisitiga">View More</a>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <img src="img/Destination/thailand.jpg" />
+                    <img src="img/Destination/Thailand/thailand.jpg" />
                     <div class="layer">
-                        <h5 class="card-title posisidua">Card title</h5>
-                        <a href="#" class="btn btn-primary posisitiga">View More</a>
+                        <h5 class="card-title posisidua">Thailand</h5>
+                        <a href="./thailand.php" class="btn btn-primary posisitiga">View More</a>
                     </div>
                 </div>
             </div>
@@ -149,13 +148,10 @@
                         <a href="#" class="text-white">Home</a>
                     </p>
                     <p>
-                        <a href="#" class="text-white">Home</a>
+                        <a href="#" class="text-white">About</a>
                     </p>
                     <p>
-                        <a href="#" class="text-white">Home</a>
-                    </p>
-                    <p>
-                        <a href="#" class="text-white">Home</a>
+                        <a href="#" class="text-white">Destination</a>
                     </p>
                 </div>
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
