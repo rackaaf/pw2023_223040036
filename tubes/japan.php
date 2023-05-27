@@ -46,10 +46,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Papua Barat, Indonesia.
+                                Kyoto, Japan.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Arashiyama adalah sebuah daerah wisata Terkenal dengan keindahan alamnya, Arashiyama menawarkan pemandangan yang luar biasa dari pegunungan, sungai, dan hutan bambu yang terkenal di seluruh Jepang.</p>
                             </div>
                         </div>
                     </div>
@@ -58,10 +58,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Magelang, Jawa Tengah.
+                                Yamanashi, Japan.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Gunung Fuji adalah gunung tertinggi di Jepang, Gunung Fuji adalah simbol budaya dan keindahan alam Jepang, dan telah diakui sebagai Situs Warisan Dunia UNESCO.</p>
                             </div>
                         </div>
                     </div>
@@ -70,10 +70,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Probolinggo, Jawa Timur.
+                                Hiroshima, Japan.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Hiroshima Peace Memorial adalah situs peringatan yang dibangun untuk menghormati korban bom atom di Hiroshima selama Perang Dunia II.</p>
                             </div>
                         </div>
                     </div>
@@ -82,10 +82,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Banyuwangi, Jawa Timur.
+                                Matsumo, Japan.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Matsumoto Castle adalah sebuah kastil Jepang, Kastil ini dikenal karena keindahan arsitektur dan keunikan bentuknya, sehingga sering disebut sebagai "Kastil Hitam" oleh masyarakat setempat.</p>
                             </div>
                         </div>
                     </div>
@@ -94,10 +94,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Manggarai Barat, NTT.
+                                Nara, Japan.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Nara adalah kota bersejarah, Nara menjadi ibu kota Jepang pada abad ke-8 dan memiliki banyak bangunan bersejarah. Nara terkenal dengan rusa liar yang berkeliaran di taman kota dan menjadi lambang kota Nara.</p>
                             </div>
                         </div>
                     </div>
@@ -108,8 +108,8 @@
             <div class="container text-center text-md-start">
                 <div class="row text-center text-md-start">
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h5 class="pb-3">Company Name</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim blanditiis quisquam quos accusamus iusto numquam neque obcaecati commodi esse ullam odit nobis laboriosam, illo cumque, nulla est quae vitae!</p>
+                        <h5 class="pb-3">Carmen</h5>
+                        <p>Berisi seputar informasi tujuan perjalanan.</p>
                     </div>
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 dekorasi">
                         <h5 class="text-uppercase mb-4">Links</h5>
@@ -117,13 +117,10 @@
                             <a href="#" class="text-white">Home</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Home</a>
+                            <a href="#" class="text-white">About</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Home</a>
-                        </p>
-                        <p>
-                            <a href="#" class="text-white">Home</a>
+                            <a href="#" class="text-white">Destination</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">

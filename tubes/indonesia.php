@@ -22,13 +22,13 @@
                 <div class="collapse navbar-collapse justify-content-end pe-3" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item pe-5">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link" href="#About">About</a>
+                            <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link active" href="#Tour">Destination</a>
+                            <a class="nav-link active" href="#">Destination</a>
                         </li>
                     </ul>
                 </div>
@@ -49,7 +49,7 @@
                                 Papua Barat, Indonesia.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Raja Ampat adalah sebuah kepulauan. Kepulauan ini terkenal dengan keindahan bawah lautnya yang luar biasa, yang menjadikannya salah satu tempat penyelaman terbaik di dunia.</p>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                                 Magelang, Jawa Tengah.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Borobudur adalah sebuah candi Buddha. Candi ini dibangun pada abad ke-8 dan terdiri dari sembilan platform, dengan stupa besar di puncaknya.</p>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                                 Probolinggo, Jawa Timur.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Bromo adalah sebuah gunung berapi, Gunung ini terkenal dengan pemandangan matahari terbitnya yang indah dan menjadi salah satu objek wisata populer di Indonesia.</p>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                                 Banyuwangi, Jawa Timur.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Kawah Ijen adalah sebuah kawah gunung berapi, daya tarik utama Kawah Ijen adalah adanya api biru yang terlihat di malam hari, yang dihasilkan oleh gas sulfur yang membakar saat keluar dari kawah.</p>
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                                 Manggarai Barat, NTT.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Labuan Bajo adalah sebuah kota kecil, Kota ini terkenal sebagai gerbang menuju Taman Nasional Komodo dan juga tempat yang menarik untuk menyelam dan menikmati keindahan pantai.</p>
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@
                                 Sleman, DIY.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Prambanan adalah sebuah kompleks candi Hindu, Candi-candi ini dibangun pada abad ke-9 dan terdiri dari tiga candi utama, yakni Candi Shiva, Candi Vishnu, dan Candi Brahma.</p>
                             </div>
                         </div>
                     </div>
@@ -121,8 +121,8 @@
             <div class="container text-center text-md-start">
                 <div class="row text-center text-md-start">
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h5 class="pb-3">Company Name</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim blanditiis quisquam quos accusamus iusto numquam neque obcaecati commodi esse ullam odit nobis laboriosam, illo cumque, nulla est quae vitae!</p>
+                        <h5 class="pb-3">Carmen</h5>
+                        <p>Berisi seputar informasi tujuan perjalanan.</p>
                     </div>
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 dekorasi">
                         <h5 class="text-uppercase mb-4">Links</h5>
@@ -130,13 +130,10 @@
                             <a href="#" class="text-white">Home</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Home</a>
+                            <a href="#" class="text-white">About</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Home</a>
-                        </p>
-                        <p>
-                            <a href="#" class="text-white">Home</a>
+                            <a href="#" class="text-white">Destination</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">

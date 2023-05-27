@@ -69,3 +69,7 @@ img {
 	-ms-transform: translateY(0);
 	transform: translateY(0);
 }
+
+.dekorasi a {
+	text-decoration: none !important;
+}

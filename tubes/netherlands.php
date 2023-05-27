@@ -46,10 +46,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Papua Barat, Indonesia.
+                                Amsterdam, Belanda.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Van Gogh Museum adalah museum seni, Van Gogh Museum memiliki koleksi lengkap dari karya-karya seniman tersebut, termasuk lukisan, gambar, dan surat-suratnya.</p>
                             </div>
                         </div>
                     </div>
@@ -58,10 +58,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Magelang, Jawa Tengah.
+                                Lisse, Belanda.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Keukenhof adalah sebuah taman bunga, Taman ini terkenal dengan keindahan bunga-bunga tulipnya yang mekar di musim semi. Keukenhof menawarkan pemandangan yang spektakuler dari berbagai jenis bunga..</p>
                             </div>
                         </div>
                     </div>
@@ -70,10 +70,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Probolinggo, Jawa Timur.
+                                Zuid-Holland, Belanda.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Kinderdijk adalah sebuah desa, Desa ini terkenal dengan kincir angin tradisionalnya yang indah, yang dibangun pada abad ke-18 dan masih beroperasi hingga saat ini. Kinderdijk memiliki 19 kincir angin.</p>
                             </div>
                         </div>
                     </div>
@@ -82,10 +82,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Banyuwangi, Jawa Timur.
+                                Amsterdam, Belanda.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Rijksmuseum adalah museum seni nasional Belanda, Museum ini memamerkan koleksi seni dari berbagai periode, termasuk seni abad ke-17 Belanda, seni Eropa dan seni Asia.</p>
                             </div>
                         </div>
                     </div>
@@ -94,10 +94,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Manggarai Barat, NTT.
+                                Noord-Holland, Belanda.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Texel adalah sebuah pulau, Pulau ini terkenal dengan pantainya yang indah dan alam yang menakjubkan. Texel juga merupakan rumah bagi flora dan fauna langka, termasuk burung laut dan domba ras Texel.</p>
                             </div>
                         </div>
                     </div>
@@ -108,8 +108,8 @@
             <div class="container text-center text-md-start">
                 <div class="row text-center text-md-start">
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h5 class="pb-3">Company Name</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim blanditiis quisquam quos accusamus iusto numquam neque obcaecati commodi esse ullam odit nobis laboriosam, illo cumque, nulla est quae vitae!</p>
+                        <h5 class="pb-3">Carmen</h5>
+                        <p>Berisi seputar informasi tujuan perjalanan.</p>
                     </div>
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 dekorasi">
                         <h5 class="text-uppercase mb-4">Links</h5>
@@ -117,13 +117,10 @@
                             <a href="#" class="text-white">Home</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Home</a>
+                            <a href="#" class="text-white">About</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Home</a>
-                        </p>
-                        <p>
-                            <a href="#" class="text-white">Home</a>
+                            <a href="#" class="text-white">Destination</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">

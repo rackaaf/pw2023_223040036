@@ -1,8 +1,8 @@
 :root {
-	--main-bg-color: #002a9d;
-	--main-text-color: #002a9d;
+	--main-bg-color: #212529;
+	--main-text-color: white;
 	--second-text-color: #bbbec5;
-	--second-bg-color: #9eb0dc;
+	--second-bg-color: #76787d;
 }
 
 .primary-text {
@@ -25,9 +25,13 @@
 	border-radius: 100%;
 }
 
+.baru {
+	color: white !important;
+}
+
 #wrapper {
 	overflow-x: hidden;
-	background-image: linear-gradient(to right, #babaf3, #c2d1f5, #cbd0f7, #d4d9f8, #dddefa);
+	background-color: #212529;
 }
 
 #sidebar-wrapper {
@@ -84,5 +88,14 @@
 
 	#wrapper.toggled #sidebar-wrapper {
 		margin-left: -15rem;
+	}
+}
+
+@media (max-width: 768px) {
+	nav {
+		margin-right: 300px;
+	}
+	.pencarian {
+		padding-top: 30px;
 	}
 }

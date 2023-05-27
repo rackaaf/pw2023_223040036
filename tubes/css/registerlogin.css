@@ -6,6 +6,7 @@
 
 body {
 	background-image: url(../img/hero.jpeg);
+	background-size: 100%;
 }
 
 .container {

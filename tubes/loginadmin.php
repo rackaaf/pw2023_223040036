@@ -6,7 +6,7 @@ if (isset($_POST["login"])) {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
-    $result = mysqli_query($conn, "SELECT * FROM users WHERE username = '$username'");
+    $result = mysqli_query($conn, "SELECT * FROM admins WHERE username = '$username'");
 
     //cek username 
     if (mysqli_num_rows($result) === 1) {
@@ -14,14 +14,16 @@ if (isset($_POST["login"])) {
         //cek password 
         $row = mysqli_fetch_assoc($result);
         if (password_verify($password, $row["password"])) {
-            header("Location: index.php");
+            header("Location: dashboard.php");
             exit;
         }
     }
 
     $error = true;
 }
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,12 +47,12 @@ if (isset($_POST["login"])) {
 	margin: 20px auto;">Username / Password Salah</p>
         <?php endif; ?>
         <form action="" method="post">
-            <input type="text" placeholder="Username" name="username">
+            <input type="text" placeholder="Username Admin" name="username">
             <input type="password" placeholder="Password" name="password">
             <button type="submit" name="login">Login</button>
         </form>
         <div class="akun">
-            Belum Punya Akun? <a href="./register.php">Daftar</a>
+            Belum Punya Akun? <a href="./registeradmin.php">Daftar</a>
         </div>
     </div>
 </body>

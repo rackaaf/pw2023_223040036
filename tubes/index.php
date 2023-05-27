@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body id="home">
     <section>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
@@ -26,13 +26,13 @@
                 <div class="collapse navbar-collapse justify-content-end pe-3" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item pe-5">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link" href="#About">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link" href="#Tour">Destination</a>
+                            <a class="nav-link" href="#destination">Destination</a>
                         </li>
                     </ul>
                 </div>
@@ -41,7 +41,7 @@
         <div class="container-fluid hero">
             <div class="container text-center posisi">
                 <h1 class="pb-2 display-1">Explore The World</h1>
-                <h4 class="pb-3 display-6">Lorem ipsum dolor sit.</h4>
+                <h4 class="pb-3 display-6">Find a Destination</h4>
                 <div class="active">
                     <a class="btn rounded-pill btnone" href="./register.php" role="button">Sign Up</a>
                     <a class="btn rounded-pill btnone btntwo" href="./login.php" role="button">Login</a>
@@ -49,7 +49,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="about">
         <div class="container-fluid service pt-5 pb-5">
             <div class="container text-center">
                 <h2 class="display-3 pb-5">About</h2>
@@ -57,28 +57,24 @@
                     <div class="col-md-3 col-sm-6 pb-4">
                         <i class="fa-sharp fa-solid fa-mountain-sun fa-3x"></i>
                         <h3 class="pt-3">Mountain</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-md-3 col-sm-6 pb-4">
                         <i class="fa-solid fa-umbrella-beach fa-3x"></i>
                         <h3 class="pt-3">Beach</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-md-3 col-sm-6 pb-4">
                         <i class="fa-solid fa-building-columns fa-3x"></i>
                         <h3 class="pt-3">Museum</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-md-3 col-sm-6 pb-4">
                         <i class="fa-solid fa-tent fa-3x"></i>
                         <h3 class="pt-3">Camping</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section id="destination">
         <h1>Destination</h1>
         <!-- Swiper -->
         <div class="swiper mySwiper">
@@ -139,23 +135,23 @@
         <div class="container text-center text-md-start">
             <div class="row text-center text-md-start">
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h5 class="pb-3">Company Name</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim blanditiis quisquam quos accusamus iusto numquam neque obcaecati commodi esse ullam odit nobis laboriosam, illo cumque, nulla est quae vitae!</p>
+                    <h5 class="pb-3">Carmen</h5>
+                    <p>Berisi seputar informasi tujuan perjalanan.</p>
                 </div>
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 dekorasi">
                     <h5 class="text-uppercase mb-4">Links</h5>
                     <p>
-                        <a href="#" class="text-white">Home</a>
+                        <a href="#home" class="text-white">Home</a>
                     </p>
                     <p>
-                        <a href="#" class="text-white">About</a>
+                        <a href="#about" class="text-white">About</a>
                     </p>
                     <p>
-                        <a href="#" class="text-white">Destination</a>
+                        <a href="#destination" class="text-white">Destination</a>
                     </p>
                 </div>
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                    <h5 class="pb-3">contact</h5>
+                    <h5 class="pb-3">Contact</h5>
                     <p><i class="fas fa-home mr-3"></i> Amsterdam, Cianjur</p>
                     <p><i class="fas fa-envelope mr-3"></i> Carmen@gmail.com</p>
                     <p><i class="fas fa-phone mr-3"></i> +62 8999 9888 989</p>
@@ -170,13 +166,13 @@
                     <div class="text-center text-md-end">
                         <ul class="list-unstyled list-inline">
                             <li class="list-inline-item">
-                                <a href="#" class="btn-sm text-white"><i class="fab fa-facebook"></i></a>
+                                <a href="index.php" class="btn-sm text-white"><i class="fab fa-facebook"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="btn-sm text-white"><i class="fab fa-twitter"></i></a>
+                                <a href="index.php" class="btn-sm text-white"><i class="fab fa-twitter"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="btn-sm text-white"><i class="fab fa-instagram"></i></a>
+                                <a href="index.php" class="btn-sm text-white"><i class="fab fa-instagram"></i></a>
                             </li>
                         </ul>
                     </div>

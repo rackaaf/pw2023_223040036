@@ -46,10 +46,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Papua Barat, Indonesia.
+                                Ayutthaya, Thailand.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Ayutthaya adalah kota bersejarah, kota ini merupakan ibu kota Kerajaan Ayutthaya yang penting di Asia Tenggara. terkenal dengan peninggalan arkeologis seperti candi, pagoda, dan kuil Buddha.</p>
                             </div>
                         </div>
                     </div>
@@ -58,10 +58,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Magelang, Jawa Tengah.
+                                Nakhon Ratchasima, Thailand.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Khao Yai adalah sebuah taman nasional, Taman nasional ini terkenal dengan keindahan alamnya. Khao Yai merupakan rumah bagi berbagai jenis satwa liar.</p>
                             </div>
                         </div>
                     </div>
@@ -70,10 +70,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Probolinggo, Jawa Timur.
+                                Krabi, Thailand.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Krabi adalah sebuah provinsi di Thailand, Krabi terkenal dengan pantainya yang indah, pulau-pulau kecil yang cantik, dan tebing-tebing karst yang menjulang tinggi.</p>
                             </div>
                         </div>
                     </div>
@@ -82,10 +82,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Banyuwangi, Jawa Timur.
+                                Phuket, Thailand.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Phuket adalah sebuah pulau, Pulau ini memiliki pantai-pantai yang indah, kehidupan malam yang sibuk, dan banyak atraksi wisata seperti James Bond Island, Patong Beach, dan Phang Nga Bay.</p>
                             </div>
                         </div>
                     </div>
@@ -96,8 +96,8 @@
             <div class="container text-center text-md-start">
                 <div class="row text-center text-md-start">
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h5 class="pb-3">Company Name</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim blanditiis quisquam quos accusamus iusto numquam neque obcaecati commodi esse ullam odit nobis laboriosam, illo cumque, nulla est quae vitae!</p>
+                        <h5 class="pb-3">Carmen</h5>
+                        <p>Berisi seputar informasi tujuan perjalanan.</p>
                     </div>
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 dekorasi">
                         <h5 class="text-uppercase mb-4">Links</h5>
@@ -105,13 +105,10 @@
                             <a href="#" class="text-white">Home</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Home</a>
+                            <a href="#" class="text-white">About</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Home</a>
-                        </p>
-                        <p>
-                            <a href="#" class="text-white">Home</a>
+                            <a href="#" class="text-white">Destination</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">

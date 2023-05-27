@@ -46,10 +46,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Papua Barat, Indonesia.
+                                Roma, Italy.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Colosseum adalah sebuah amfiteater besar, Colosseum dibangun pada abad ke-1 Masehi dan dianggap sebagai salah satu warisan bersejarah terbesar dari zaman Romawi Kuno.</p>
                             </div>
                         </div>
                     </div>
@@ -58,10 +58,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Magelang, Jawa Tengah.
+                                Liguria, Italy.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Cinque Terre adalah sebuah kawasan pesisir, Cinque Terre terdiri dari lima desa nelayan kecil yang terletak di tebing-tebing curam di atas laut. Tempat ini dikenal dengan pemandangan indah yang menakjubkan.</p>
                             </div>
                         </div>
                     </div>
@@ -70,10 +70,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Probolinggo, Jawa Timur.
+                                Roma, Italy.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Piazza Navona adalah sebuah alun-alun, Alun-alun ini dikenal karena arsitektur baroknya yang indah, dan merupakan salah satu tujuan wisata paling populer di Roma.</p>
                             </div>
                         </div>
                     </div>
@@ -82,10 +82,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Banyuwangi, Jawa Timur.
+                                Toscana, Italy.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Menara Pisa adalah sebuah menara lonceng besar, Menara ini dikenal karena kemiringannya yang terkenal, yang disebabkan oleh kesalahan dalam desain pondasi saat dibangun pada abad ke-12.</p>
                             </div>
                         </div>
                     </div>
@@ -94,10 +94,10 @@
                         <div class="featured-item-content ps-4">
                             <span>
                                 <i class="fas fa-map-marker-alt"></i>
-                                Manggarai Barat, NTT.
+                                Veneto, Italy.
                             </span>
                             <div>
-                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                <p class="text">Venice dikenal sebagai "Kota Air" karena dibangun di atas air dan terdiri dari banyak kanal dan jembatan. Venice memiliki banyak bangunan bersejarah yang indah, Santo Markus dan Palazzo Ducale.</p>
                             </div>
                         </div>
                     </div>
@@ -108,8 +108,8 @@
             <div class="container text-center text-md-start">
                 <div class="row text-center text-md-start">
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h5 class="pb-3">Company Name</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim blanditiis quisquam quos accusamus iusto numquam neque obcaecati commodi esse ullam odit nobis laboriosam, illo cumque, nulla est quae vitae!</p>
+                        <h5 class="pb-3">Carmen</h5>
+                        <p>Berisi seputar informasi tujuan perjalanan.</p>
                     </div>
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 dekorasi">
                         <h5 class="text-uppercase mb-4">Links</h5>
@@ -117,13 +117,10 @@
                             <a href="#" class="text-white">Home</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Home</a>
+                            <a href="#" class="text-white">About</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Home</a>
-                        </p>
-                        <p>
-                            <a href="#" class="text-white">Home</a>
+                            <a href="#" class="text-white">Destination</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">

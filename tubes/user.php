@@ -2,11 +2,11 @@
 
 require './functions.php';
 
-$admin = query("SELECT * FROM admins");
+$users = query("SELECT * FROM users");
 
 //tombol search diklik
 if (isset($_POST["cari"])) {
-    $admin = cari2($_POST["keyword"]);
+    $users = cari($_POST["keyword"]);
 }
 
 ?>
@@ -33,8 +33,8 @@ if (isset($_POST["cari"])) {
             <div class="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase"><i class="fas fa-mountain-sun me-2"></i>Carmen</div>
             <div class="list-group list-group-flush my-3">
                 <a href="./dashboard.php" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
-                <a href="./admin.php" class="list-group-item list-group-item-action bg-transparent second-text active"><i class="fas fa-user me-2"></i>Admin</a>
-                <a href="./user.php" class="list-group-item list-group-item-action bg-transparent second-text  fw-bold"><i class="fas fa-user me-2"></i>User</a>
+                <a href="./admin.php" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i class="fas fa-user me-2"></i>Admin</a>
+                <a href="./user.php" class="list-group-item list-group-item-action bg-transparent second-text active"><i class="fas fa-user me-2"></i>User</a>
             </div>
         </div>
 
@@ -42,50 +42,48 @@ if (isset($_POST["cari"])) {
             <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-4 px-4 justify-content-between">
                 <div class="d-flex align-items-center">
                     <i class="fas fa-align-left primary-text fs-4 me-5 batas" id="menu-toggle"></i>
-                    <a href="tambahadmin.php"><button type="button" class="btn btn-light ">Tambah Admin</button></a>
+                    <a href="tambahuser.php"><button type="button" class="btn btn-light ">Tambah User</button></a>
                 </div>
 
                 <form class="d-flex pencarian" role="search" action="" method="post">
-                    <input class="form-control me-2 pe-5" type="text" placeholder="Cari Username Admin" name="keyword" autocomplete="off" />
+                    <input class="form-control me-2 pe-5" type="text" placeholder="Cari Username" name="keyword" autocomplete="off" />
                     <button class="btn btn-outline-light" type="submit" name="cari">Search</button>
                 </form>
             </nav>
 
             <div class="container-fluid px-4">
                 <div class="row my-5">
-                    <h3 class="fs-4 mb-3 text-white border-bottom pb-3">Admin</h3>
+                    <h3 class="fs-4 mb-3 text-white border-bottom pb-3">User</h3>
                     <div class="col">
                         <table class="table bg-white rounded shadow-sm table-hover">
                             <thead>
                                 <tr class="text-center">
-                                    <th scope="col" width="30">id</th>
+                                    <th scope="col" width="50">id</th>
                                     <th scope="col">Username</th>
                                     <th scope="col">Password</th>
-                                    <th scope="col">Gambar</th>
                                     <th scope="col">Aksi</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
-                                    <?php $i = 1; ?>
-                                    <?php
+                                <?php $i = 1; ?>
+                                <?php
 
-                                    foreach ($admin as $row) :
+                                foreach ($users as $row) :
 
-                                    ?>
+                                ?>
+                                    <tr>
                                         <td><?php $i; ?> </td>
-                                        <td> <?= $row["username"]; ?></td>
+                                        <td><?= $row["username"]; ?> </td>
                                         <td><?= $row["password"]; ?></td>
-                                        <td><img src="img/admins/<?= $row["gambar"]; ?>" width="50"></td>
                                         <td>
-                                            <a href="editadmin.php?id=<?= $row["id"]; ?> "><button type="button" class="btn btn-success">Edit</button></a>
-                                            <a href="hapusadmin.php?id=<?= $row["id"]; ?>" onclick="return confirm('hapus?');"><button type="button" class="btn btn-danger">Hapus</button></a>
+                                            <a href="edit.php?id=<?= $row["id"]; ?>"><button type="button" class="btn btn-success">Edit</button></a>
+                                            <a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('hapus?');"><button type="button" class="btn btn-danger">Hapus</button></a>
                                         </td>
-                                </tr>
-                                <?php $i++; ?>
-                            <?php
-                                    endforeach;
-                            ?>
+                                    </tr>
+                                    <?php $i++; ?>
+                                <?php
+                                endforeach;
+                                ?>
                             </tbody>
                         </table>
                     </div>
