@@ -1,4 +1,10 @@
 <?php
+session_start();
+
+if (!isset($_SESSION["login"])) {
+    header("Location: loginadmin.php");
+    exit;
+}
 
 require './functions.php';
 
@@ -73,7 +79,7 @@ if (isset($_POST["cari"])) {
                                     foreach ($admin as $row) :
 
                                     ?>
-                                        <td><?php $i; ?> </td>
+                                        <td><?php echo $i; ?> </td>
                                         <td> <?= $row["username"]; ?></td>
                                         <td><?= $row["password"]; ?></td>
                                         <td><img src="img/admins/<?= $row["gambar"]; ?>" width="50"></td>

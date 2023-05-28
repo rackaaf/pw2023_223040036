@@ -1,4 +1,11 @@
 <?php
+session_start();
+
+if (!isset($_SESSION["login"])) {
+    header("Location: loginadmin.php");
+    exit;
+}
+
 require './functions.php';
 
 //ambil data di url
@@ -18,14 +25,14 @@ if (isset($_POST["edit"])) {
         echo "
         <script>
         alert('user berhasil diedit');
-        document.location.href = 'dashboard.php';
+        document.location.href = 'admin.php';
         </script>
         ";
     } else {
         echo "
         <script>
         alert('user gagal diedit');
-        document.location.href = 'dashboard.php';
+        document.location.href = 'admin.php';
         </script>
         ";
     }

@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+require './functions.php';
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,6 +41,19 @@
                         </li>
                         <li class="nav-item pe-5">
                             <a class="nav-link" href="#destination">Destination</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link link-light">
+                                <i class="fas fa-user me-1 link-light"></i><?php if (isset($_SESSION["login"])) {
+                                                                                echo " Halo, " . $_SESSION['username'] . "";
+                                                                            } ?>
+                            </a>
+                        <li class="nav-item dropdown pe-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="logout.php">Logout</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>

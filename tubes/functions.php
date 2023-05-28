@@ -220,8 +220,12 @@ function hapus2($id)
 {
     global $conn;
 
-    mysqli_query($conn, "DELETE FROM admins WHERE id = $id");
+    $file = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM admins WHERE id= $id"));
+    unlink('img/' . 'admins/' . $file["gambar"]);
 
+    $hapus = "DELETE FROM admins WHERE id = $id";
+
+    mysqli_query($conn, $hapus);
     return mysqli_affected_rows($conn);
 }
 

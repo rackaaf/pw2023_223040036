@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+if (!isset($_SESSION["login"])) {
+    header("Location: login.php");
+    exit;
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,7 +32,7 @@
                 <div class="collapse navbar-collapse justify-content-end pe-3" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item pe-5">
-                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item pe-5">
                             <a class="nav-link" href="#">About</a>

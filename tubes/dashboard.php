@@ -1,4 +1,12 @@
 <?php
+session_start();
+
+if (!isset($_SESSION["login"])) {
+    header("Location: loginadmin.php");
+    exit;
+}
+
+
 
 require './functions.php';
 
@@ -45,11 +53,10 @@ $users = query("SELECT * FROM users");
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle second-text fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fas fa-user me-2"></i>
+                                <img src="<?php echo "img/" . "admins/" .  $_SESSION['gambar'] ?> " class="rounded-circle me-1" width="40"> Halo, <?php echo $_SESSION['username'] ?>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Profile</a></li>
-                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                                <li><a class="dropdown-item" href="logoutadmin.php">Logout</a></li>
                             </ul>
                         </li>
                     </ul>

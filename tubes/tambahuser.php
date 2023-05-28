@@ -1,4 +1,11 @@
 <?php
+session_start();
+
+if (!isset($_SESSION["login"])) {
+    header("Location: loginadmin.php");
+    exit;
+}
+
 require './functions.php';
 //cek apakah tombol tambah sudah ditekan atau belum
 if (isset($_POST["tambah"])) {
@@ -8,14 +15,14 @@ if (isset($_POST["tambah"])) {
         echo "
         <script>
         alert('user berhasil ditambahakan');
-        document.location.href = 'dashboard.php';
+        document.location.href = 'user.php';
         </script>
         ";
     } else {
         echo "
         <script>
         alert('user berhasil ditambahakan');
-        document.location.href = 'dashboard.php';
+        document.location.href = 'user.php';
         </script>
         ";
     }
