@@ -67,3 +67,18 @@ input:focus {
 	color: rgb(17, 107, 143);
 	text-decoration: none;
 }
+
+@media (max-width: 768px) {
+	body {
+		background-image: url(../img/mobile.jpeg);
+		background-size: 100%;
+	}
+
+	.container {
+		margin: 150px auto;
+	}
+
+	.tengah {
+		text-align: center;
+	}
+}

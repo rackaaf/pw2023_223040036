@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (!isset($_SESSION["login"])) {
+if (!isset($_SESSION["login2"])) {
     header("Location: login.php");
     exit;
 }
@@ -132,7 +132,7 @@ if (!isset($_SESSION["login"])) {
                 <div class="row text-center text-md-start">
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h5 class="pb-3">Carmen</h5>
-                        <p>Berisi seputar informasi tujuan perjalanan.</p>
+                        <p>Kami adalah website yang didedikasikan untuk menginformasikan destinasi yang menakjubkan di seluruh dunia. Kami berkomitmen untuk menyediakan informasi tempat liburan di setiap negara untuk membantu Anda merencanakan liburan impian Anda.</p>
                     </div>
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 dekorasi">
                         <h5 class="text-uppercase mb-4">Links</h5>
@@ -156,7 +156,7 @@ if (!isset($_SESSION["login"])) {
                 <br class="mb-4" />
                 <div class="row align-items-center">
                     <div class="col-md-7 col-lg-8">
-                        <p style="padding-left: 60px">Copyright &copy; 2023 All rights reserved by: <strong>Carmen</strong></p>
+                        <p style="padding-left: 60px" class="tengah">Copyright &copy; 2023 All rights reserved by: <strong>Carmen</strong></p>
                     </div>
                     <div class="col-md-5 col-lg-4">
                         <div class="text-center text-md-end">

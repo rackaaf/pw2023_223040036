@@ -41,6 +41,7 @@ if (isset($_POST["cari"])) {
                 <a href="./dashboard.php" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
                 <a href="./admin.php" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i class="fas fa-user me-2"></i>Admin</a>
                 <a href="./user.php" class="list-group-item list-group-item-action bg-transparent second-text active"><i class="fas fa-user me-2"></i>User</a>
+                <a href="./printuser.php" target="_blank" class="list-group-item list-group-item-action bg-transparent second-text fw-bold active"><i class="fas fa-print me-2"></i>Print PDF</a>
             </div>
         </div>
 
@@ -52,8 +53,8 @@ if (isset($_POST["cari"])) {
                 </div>
 
                 <form class="d-flex pencarian" role="search" action="" method="post">
-                    <input class="form-control me-2 pe-5" type="text" placeholder="Cari Username" name="keyword" autocomplete="off" />
-                    <button class="btn btn-outline-light" type="submit" name="cari">Search</button>
+                    <input class="form-control me-2 pe-5" type="text" placeholder="Cari Username" name="keyword" autocomplete="off" id="keyword" />
+                    <button class="btn btn-outline-light" type="submit" name="cari" id="cari">Search</button>
                 </form>
             </nav>
 
@@ -61,37 +62,39 @@ if (isset($_POST["cari"])) {
                 <div class="row my-5">
                     <h3 class="fs-4 mb-3 text-white border-bottom pb-3">User</h3>
                     <div class="col">
-                        <table class="table bg-white rounded shadow-sm table-hover">
-                            <thead>
-                                <tr class="text-center">
-                                    <th scope="col" width="50">id</th>
-                                    <th scope="col">Username</th>
-                                    <th scope="col">Password</th>
-                                    <th scope="col">Aksi</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <?php $i = 1; ?>
-                                <?php
-
-                                foreach ($users as $row) :
-
-                                ?>
-                                    <tr>
-                                        <td><?php echo $i; ?></td>
-                                        <td><?= $row["username"]; ?> </td>
-                                        <td><?= $row["password"]; ?></td>
-                                        <td>
-                                            <a href="edit.php?id=<?= $row["id"]; ?>"><button type="button" class="btn btn-success">Edit</button></a>
-                                            <a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('hapus?');"><button type="button" class="btn btn-danger">Hapus</button></a>
-                                        </td>
+                        <div id="ajx">
+                            <table class="table bg-white rounded shadow-sm table-hover">
+                                <thead>
+                                    <tr class="text-center">
+                                        <th scope="col" width="50">id</th>
+                                        <th scope="col">Username</th>
+                                        <th scope="col">Password</th>
+                                        <th scope="col">Aksi</th>
                                     </tr>
-                                    <?php $i++; ?>
-                                <?php
-                                endforeach;
-                                ?>
-                            </tbody>
-                        </table>
+                                </thead>
+                                <tbody class="text-center">
+                                    <?php $i = 1; ?>
+                                    <?php
+
+                                    foreach ($users as $row) :
+
+                                    ?>
+                                        <tr>
+                                            <td><?php echo $i; ?></td>
+                                            <td><?= $row["username"]; ?> </td>
+                                            <td><?= $row["password"]; ?></td>
+                                            <td>
+                                                <a href="edit.php?id=<?= $row["id"]; ?>"><button type="button" class="btn btn-success">Edit</button></a>
+                                                <a href="hapus.php?id=<?= $row["id"]; ?>" onclick="return confirm('hapus?');"><button type="button" class="btn btn-danger">Hapus</button></a>
+                                            </td>
+                                        </tr>
+                                        <?php $i++; ?>
+                                    <?php
+                                    endforeach;
+                                    ?>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -107,6 +110,7 @@ if (isset($_POST["cari"])) {
             el.classList.toggle("toggled");
         };
     </script>
+    <script src="js/user.js"></script>
 </body>
 
 </html>

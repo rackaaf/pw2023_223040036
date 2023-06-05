@@ -10,8 +10,12 @@ if (!isset($_SESSION["login"])) {
 
 require './functions.php';
 
-$users = query("SELECT * FROM users");
+//mengambil jumlah data
+$user1 = mysqli_query($conn, "SELECT * FROM users");
+$ambil1 = mysqli_num_rows($user1);
 
+$admin1 = mysqli_query($conn, "SELECT * FROM admins");
+$ambil2 = mysqli_num_rows($admin1);
 ?>
 
 
@@ -53,7 +57,7 @@ $users = query("SELECT * FROM users");
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle second-text fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="<?php echo "img/" . "admins/" .  $_SESSION['gambar'] ?> " class="rounded-circle me-1" width="40"> Halo, <?php echo $_SESSION['username'] ?>
+                                <img src="<?php echo "img/" . "admins/" .  $_SESSION['gambar'] ?> " class="rounded-circle me-1" width="40" height="40"> Halo, <?php echo $_SESSION['username'] ?>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="logoutadmin.php">Logout</a></li>
@@ -68,20 +72,20 @@ $users = query("SELECT * FROM users");
                     <div class="col-md-4">
                         <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
                             <div>
-                                <h3 class="fs-2">0</h3>
+                                <h3 class="fs-2"><?php echo $ambil1; ?> </h3>
                                 <p class="fs-5">User</p>
                             </div>
-                            <i class="fas fa-user fs-1 primary-text border rounded-full secondary-bg p-3"></i>
+                            <i class="fas fa-user fs-1 primary-text border rounded secondary-bg p-3"></i>
                         </div>
                     </div>
 
                     <div class="col-md-4">
                         <div class="p-3 bg-white shadow-sm d-flex justify-content-around align-items-center rounded">
                             <div>
-                                <h3 class="fs-2">0</h3>
-                                <p class="fs-5">Visit</p>
+                                <h3 class="fs-2"><?php echo $ambil2; ?> </h3>
+                                <p class="fs-5">Admin</p>
                             </div>
-                            <i class="fas fa-eye fs-1 primary-text border rounded-full secondary-bg p-3"></i>
+                            <i class="fas fa-user-gear fs-1 primary-text border rounded secondary-bg p-3"></i>
                         </div>
                     </div>
                 </div>

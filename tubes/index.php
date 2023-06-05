@@ -17,9 +17,6 @@ require './functions.php';
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/tubes.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rubik&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
@@ -27,7 +24,7 @@ require './functions.php';
     <section>
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand ps-5" href="#">Carmen</a>
+                <a class="navbar-brand ps-5" href="">Carmen</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -44,8 +41,8 @@ require './functions.php';
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link link-light">
-                                <i class="fas fa-user me-1 link-light"></i><?php if (isset($_SESSION["login"])) {
-                                                                                echo " Halo, " . $_SESSION['username'] . "";
+                                <i class="fas fa-user me-1 link-light"></i><?php if (isset($_SESSION["login2"])) {
+                                                                                echo " Halo, " . $_SESSION['username'];
                                                                             } ?>
                             </a>
                         <li class="nav-item dropdown pe-3">
@@ -73,7 +70,17 @@ require './functions.php';
     <section id="about">
         <div class="container-fluid service pt-5 pb-5">
             <div class="container text-center">
-                <h2 class="display-3 pb-5">About</h2>
+                <h1 class="pb-4">About</h1>
+                <div class="row p-4 text-center mb-5">
+                    <div class="col-md-8 col-lg-6 ps-3 pt-3">
+                        <img src="img/about.png" width="300" height="300" />
+                    </div>
+                    <div class="col-md-6 col-lg-6" style="padding-top: 50px;">
+                        <p>
+                            Kami adalah website yang didedikasikan untuk menginformasikan destinasi yang menakjubkan di seluruh dunia. Kami berkomitmen untuk menyediakan informasi tempat liburan di setiap negara untuk membantu Anda merencanakan liburan impian Anda. Kami memahami bahwa setiap perjalanan adalah pengalaman pribadi yang unik, oleh karena itu kami menyajikan beberapa tempat. Apakah Anda seorang pecinta alam yang mengagumi pemandangan pegunungan, seorang penyelam yang ingin menjelajahi keindahan bawah laut, atau seorang penggemar budaya yang tertarik dengan warisan sejarah, kami memiliki beberapa tempat rekomendasi tujuan wisata yang cocok untuk Anda.
+                        </p>
+                    </div>
+                </div>
                 <div class="row pt-4">
                     <div class="col-md-3 col-sm-6 pb-4">
                         <i class="fa-sharp fa-solid fa-mountain-sun fa-3x"></i>
@@ -157,7 +164,7 @@ require './functions.php';
             <div class="row text-center text-md-start">
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h5 class="pb-3">Carmen</h5>
-                    <p>Berisi seputar informasi tujuan perjalanan.</p>
+                    <p>Kami adalah website yang didedikasikan untuk menginformasikan destinasi yang menakjubkan di seluruh dunia. Kami berkomitmen untuk menyediakan informasi tempat liburan di setiap negara untuk membantu Anda merencanakan liburan impian Anda.</p>
                 </div>
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 dekorasi">
                     <h5 class="text-uppercase mb-4">Links</h5>
@@ -181,7 +188,7 @@ require './functions.php';
             <br class="mb-4" />
             <div class="row align-items-center ">
                 <div class="col-md-7 col-lg-8">
-                    <p style="padding-left: 60px;">Copyright &copy; 2023 All rights reserved by: <strong>Carmen</strong></p>
+                    <p style="padding-left: 60px;" class="tengah">Copyright &copy; 2023 All rights reserved by: <strong>Carmen</strong></p>
                 </div>
                 <div class="col-md-5 col-lg-4">
                     <div class="text-center text-md-end">

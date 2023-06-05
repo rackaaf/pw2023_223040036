@@ -1,14 +1,14 @@
 <?php
 session_start();
 
-if (isset($_SESSION["login"])) {
+if (isset($_SESSION["login2"])) {
     header("Location: index.php");
     exit;
 }
 
 require 'functions.php';
 
-if (isset($_POST["login"])) {
+if (isset($_POST["login2"])) {
 
     $username = $_POST["username"];
     $password = $_POST["password"];
@@ -22,7 +22,7 @@ if (isset($_POST["login"])) {
         $row = mysqli_fetch_assoc($result);
         if (password_verify($password, $row["password"])) {
             //set session
-            $_SESSION["login"] = true;
+            $_SESSION["login2"] = true;
             $_SESSION['username'] = $row['username'];
             header("Location: index.php");
             exit;
@@ -57,7 +57,7 @@ if (isset($_POST["login"])) {
         <form action="" method="post">
             <input type="text" placeholder="Username" name="username">
             <input type="password" placeholder="Password" name="password">
-            <button type="submit" name="login">Login</button>
+            <button type="submit" name="login2">Login</button>
         </form>
         <div class="akun">
             Belum Punya Akun? <a href="./register.php">Daftar</a>
