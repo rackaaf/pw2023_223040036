@@ -156,6 +156,13 @@ require './functions.php';
                         <a href="./thailand.php" class="btn btn-primary posisitiga">View More</a>
                     </div>
                 </div>
+                <div class="swiper-slide">
+                    <img src="img/Destination/Rekomendasi/rekomendasiadmin.jpeg" />
+                    <div class="layer">
+                        <h5 class="card-title posisidua">Rekomendasi Admin</h5>
+                        <a href="./rekomendasiadmin.php" class="btn btn-primary posisitiga">View More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

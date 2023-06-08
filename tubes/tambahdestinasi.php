@@ -11,18 +11,18 @@ require './functions.php';
 if (isset($_POST["tambah"])) {
 
     //cek apakah data berhasil ditambahkan atau tidak
-    if (tambah2($_POST) > 0) {
+    if (tambahdestinasi($_POST) > 0) {
         echo "
         <script>
-        alert('user berhasil ditambahakan');
-        document.location.href = 'admin.php';
+        alert('data berhasil ditambahakan');
+        document.location.href = 'destinasi.php';
         </script>
         ";
     } else {
         echo "
         <script>
-        alert('user berhasil ditambahakan');
-        document.location.href = 'admin.php';
+        alert('data gagal ditambahakan');
+        document.location.href = 'destinasi.php';
         </script>
         ";
     }
@@ -38,18 +38,18 @@ if (isset($_POST["tambah"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TambahAdmin</title>
+    <title>Tambah Destinasi</title>
     <link rel="stylesheet" href="css/registerlogin.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>Tambah Admin</h1>
+        <h1>Tambah Destinasi</h1>
         <form action="" method="post" enctype="multipart/form-data">
-            <input type="text" placeholder="Username Admin" name="username" id="username">
-            <input type="password" placeholder="Password" name="password" id="password">
+            <input type="text" placeholder="Tempat" name="tempat" id="tempat">
+            <input type="text" placeholder="Deskripsi" name="deskripsi" id="deskripsi">
             <input type="file" name="gambar" id="gambar">
-            <button type="submit" name="tambah">Tambah Admin</button>
+            <button type="submit" name="tambah">Tambah Destinasi</button>
         </form>
     </div>
 </body>

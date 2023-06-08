@@ -5,8 +5,13 @@ if (!isset($_SESSION["login2"])) {
     header("Location: login.php");
     exit;
 }
-?>
 
+
+require './functions.php';
+
+$destinasi = query("SELECT * FROM rekomendasi_destinasi");
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +20,7 @@ if (!isset($_SESSION["login2"])) {
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Italy</title>
+    <title>Rekomendasi Admin</title>
     <link rel="stylesheet" href="css/destination.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -54,70 +59,29 @@ if (!isset($_SESSION["login2"])) {
         <section>
             <div class="container">
                 <div class="title-wrap">
-                    <h2 class="lg-title">ITALY</h2>
+                    <h2 class="lg-title">Rekomendasi</h2>
                     <span class="sm-title">know about some places before your travel</span>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 featured-item pt-3">
-                        <img src="img/Destination/Italia/colosseum.jpg" alt="" />
-                        <div class="featured-item-content ps-4">
-                            <span>
-                                <i class="fas fa-map-marker-alt"></i>
-                                Roma, Italy.
-                            </span>
-                            <div>
-                                <p class="text">Colosseum adalah sebuah amfiteater besar, Colosseum dibangun pada abad ke-1 Masehi dan dianggap sebagai salah satu warisan bersejarah terbesar dari zaman Romawi Kuno.</p>
+                    <?php
+                    foreach ($destinasi as $row) :
+                    ?>
+                        <div class="col-lg-4 col-md-6 featured-item pt-3">
+                            <img src="img/Destination/Rekomendasi/<?= $row["gambar"]; ?>" alt="" />
+                            <div class="featured-item-content ps-4">
+                                <span>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <?= $row["tempat"]; ?>
+                                </span>
+                                <div>
+                                    <p class="text"><?= $row["deskripsi"]; ?></p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 featured-item pt-3">
-                        <img src="img/Destination/Italia/cinqueterre.jpg" alt="" />
-                        <div class="featured-item-content ps-4">
-                            <span>
-                                <i class="fas fa-map-marker-alt"></i>
-                                Liguria, Italy.
-                            </span>
-                            <div>
-                                <p class="text">Cinque Terre adalah sebuah kawasan pesisir, Cinque Terre terdiri dari lima desa nelayan kecil yang terletak di tebing-tebing curam di atas laut. Tempat ini dikenal dengan pemandangan indah yang menakjubkan.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 featured-item pt-3">
-                        <img src="img/Destination/Italia/piazzanavona.jpg" alt="" />
-                        <div class="featured-item-content ps-4">
-                            <span>
-                                <i class="fas fa-map-marker-alt"></i>
-                                Roma, Italy.
-                            </span>
-                            <div>
-                                <p class="text">Piazza Navona adalah sebuah alun-alun, Alun-alun ini dikenal karena arsitektur baroknya yang indah, dan merupakan salah satu tujuan wisata paling populer di Roma.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 featured-item pt-3">
-                        <img src="img/Destination/Italia/pisa.jpg" alt="" />
-                        <div class="featured-item-content ps-4">
-                            <span>
-                                <i class="fas fa-map-marker-alt"></i>
-                                Toscana, Italy.
-                            </span>
-                            <div>
-                                <p class="text">Menara Pisa adalah sebuah menara lonceng besar, Menara ini dikenal karena kemiringannya yang terkenal, yang disebabkan oleh kesalahan dalam desain pondasi saat dibangun pada abad ke-12.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 featured-item pt-3">
-                        <img src="img/Destination/Italia/venice.jpg" alt="" />
-                        <div class="featured-item-content ps-4">
-                            <span>
-                                <i class="fas fa-map-marker-alt"></i>
-                                Veneto, Italy.
-                            </span>
-                            <div>
-                                <p class="text">Venice dikenal sebagai "Kota Air" karena dibangun di atas air dan terdiri dari banyak kanal dan jembatan. Venice memiliki banyak bangunan bersejarah yang indah, Santo Markus dan Palazzo Ducale.</p>
-                            </div>
-                        </div>
-                    </div>
+
+                    <?php
+                    endforeach;
+                    ?>
                 </div>
             </div>
         </section>

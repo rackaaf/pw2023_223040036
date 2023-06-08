@@ -43,6 +43,7 @@ $ambil2 = mysqli_num_rows($admin1);
                 <a href="./dashboard.php" class="list-group-item list-group-item-action bg-transparent second-text active"><i class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
                 <a href="./admin.php" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i class="fas fa-user me-2"></i>Admin</a>
                 <a href="./user.php" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i class="fas fa-user me-2"></i>User</a>
+                <a href="./destinasi.php" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i class="fas fa-plane-departure me-2"></i>Destinasi</a>
             </div>
         </div>
 

@@ -40,6 +40,13 @@ if (!isset($_SESSION["login2"])) {
                         <li class="nav-item pe-5">
                             <a class="nav-link active" href="#">Destination</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link link-light">
+                                <i class="fas fa-user me-1 link-light"></i><?php if (isset($_SESSION["login2"])) {
+                                                                                echo " Halo, " . $_SESSION['username'];
+                                                                            } ?>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
