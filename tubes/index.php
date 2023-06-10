@@ -37,7 +37,7 @@ require './functions.php';
                             <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link" href="#destination">Destination</a>
+                            <a class="nav-link" href="#destinasi">Destination</a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link link-light">
@@ -102,8 +102,8 @@ require './functions.php';
             </div>
         </div>
     </section>
-    <section id="destination">
-        <h1>Destination</h1>
+    <section id="destinasi">
+        <h1 class="mb-3">Destination</h1>
         <!-- Swiper -->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -166,6 +166,56 @@ require './functions.php';
             </div>
         </div>
     </section>
+    <section>
+        <div class="container">
+            <div class="row text-center pt-3 mb-3">
+                <div class="mt-2 pt-2">
+                    <h1>Popular Destination</h1>
+                </div>
+            </div>
+            <div class="row text-center photo">
+                <div class="col-sm-12 col-md-6 col-lg-4 position-relative d-block overflow-hidden a">
+                    <img class="img-fluid shadow rounded " src="img/Destination/Italia/colosseum.jpg" alt="destinasi" />
+                    <div class="bg-transparent text-light fw-bold position-absolute bottom-0 start-0 m-3 py-1 px-2 pb-2 align-items-center">
+                        <i class="fas fa-map-marker-alt"></i> Rome, Italy.
+                        <div class="mb-1">
+                            <small class="fa fa-star text-light"></small>
+                            <small class="fa fa-star text-light"></small>
+                            <small class="fa fa-star text-light"></small>
+                            <small class="fa fa-star text-light"></small>
+                            <small class="fa fa-star text-light"></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 position-relative d-block overflow-hidden a">
+                    <img class="img-fluid shadow rounded " src="img/Destination/France/eiffeltower.jpg" alt="destinasi" />
+                    <div class="bg-transparent text-light fw-bold position-absolute bottom-0 start-0 m-3 py-1 px-2 pb-2 align-items-center">
+                        <i class="fas fa-map-marker-alt"></i> Paris, France.
+                        <div class="mb-1">
+                            <small class="fa fa-star text-light"></small>
+                            <small class="fa fa-star text-light"></small>
+                            <small class="fa fa-star text-lightr"></small>
+                            <small class="fa fa-star text-light"></small>
+                            <small class="fa fa-star" style="color: black"></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 position-relative d-block overflow-hidden a">
+                    <img class="img-fluid shadow rounded " src="img/Destination/Indonesia/bali.jpg" alt="destinasi" />
+                    <div class="bg-transparent text-light fw-bold position-absolute bottom-0 start-0 m-3 py-1 px-2 pb-2 align-items-center">
+                        <i class="fas fa-map-marker-alt"></i> Bali, Indonesia.
+                        <div class="mb-1">
+                            <small class="fa fa-star text-light"></small>
+                            <small class="fa fa-star text-light"></small>
+                            <small class="fa fa-star text-light"></small>
+                            <small class="fa fa-star text-light"></small>
+                            <small class="fa fa-star" style="color: black"></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="bg-dark text-white py-2 mt-5">
         <div class="container text-center text-md-start">
             <div class="row text-center text-md-start">
@@ -182,7 +232,7 @@ require './functions.php';
                         <a href="#about" class="text-white">About</a>
                     </p>
                     <p>
-                        <a href="#destination" class="text-white">Destination</a>
+                        <a href="#destinasi" class="text-white">Destination</a>
                     </p>
                 </div>
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">

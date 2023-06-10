@@ -24,7 +24,7 @@ if (isset($_POST["login"])) {
         if (password_verify($password, $row["password"])) {
             //set session
             $_SESSION["login"] = true;
-            $_SESSION['username'] = $row['username'];
+            $_SESSION['user_name'] = $row['username'];
             $_SESSION['gambar'] = $row['gambar'];
             header("Location: dashboard.php");
             exit;

@@ -58,7 +58,7 @@ $ambil2 = mysqli_num_rows($admin1);
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle second-text fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="<?php echo "img/" . "admins/" .  $_SESSION['gambar'] ?> " class="rounded-circle me-1" width="40" height="40"> Halo, <?php echo $_SESSION['username'] ?>
+                                <img src="<?php echo "img/" . "admins/" .  $_SESSION['gambar'] ?> " class="rounded-circle me-1" width="40" height="40"> Halo, <?php echo $_SESSION['user_name'] ?>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="logoutadmin.php">Logout</a></li>

@@ -31,13 +31,13 @@ if (!isset($_SESSION["login2"])) {
                 <div class="collapse navbar-collapse justify-content-end pe-3" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item pe-5">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.php#home">Home</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="index.php#about">About</a>
                         </li>
                         <li class="nav-item pe-5">
-                            <a class="nav-link active" href="#">Destination</a>
+                            <a class="nav-link active" href="index.php#destinasi">Destination</a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link link-light">
@@ -118,13 +118,13 @@ if (!isset($_SESSION["login2"])) {
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 dekorasi">
                         <h5 class="text-uppercase mb-4">Links</h5>
                         <p>
-                            <a href="#" class="text-white">Home</a>
+                            <a href="index.php#home" class="text-white">Home</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">About</a>
+                            <a href="index.php#about" class="text-white">About</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Destination</a>
+                            <a href="index.php#destinasi" class="text-white">Destination</a>
                         </p>
                     </div>
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
